@@ -1,0 +1,52 @@
+[
+  {
+    "name": "NA LCS",
+    "slug": "na-lcs",
+    "id": 2
+  },
+  {
+    "name": "LEC",
+    "slug": "lec",
+    "id": 3
+  },
+  {
+    "name": "LCK",
+    "slug": "lck",
+    "id": 6
+  },
+  {
+    "name": "LPL",
+    "slug": "lpl",
+    "id": 7
+  },
+  {
+    "name": "LMS",
+    "slug": "lms",
+    "id": 8
+  },
+  {
+    "name": "World Championship",
+    "slug": "worlds",
+    "id": 9
+  },
+  {
+    "name": "Mid-Season Invitational",
+    "slug": "msi",
+    "id": 10
+  },
+  {
+    "name": "Rift Rivals",
+    "slug": "rift-rivals",
+    "id": 43
+  },
+  {
+    "name": "NA Scouting Grounds",
+    "slug": "na-scouting-grounds",
+    "id": 50
+  },
+  {
+    "name": "NA Academy",
+    "slug": "na-academy",
+    "id": 51
+  }
+]
