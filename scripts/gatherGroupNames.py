@@ -39,8 +39,6 @@ def getGroupNames(data):
 with open(leagueDataPath, "r") as read_file:
     data = json.load(read_file)
     groupNames = getGroupNames(data)
-read_file.close()
 
 with open(groupNameDataPath, "w") as write_file:
     json.dump(groupNames, write_file, indent=2)
-write_file.close()
