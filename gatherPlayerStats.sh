@@ -1,6 +1,7 @@
 mkdir -p data
 mkdir -p data/leagueData
 mkdir -p data/tournamentStats
+mkdir -p data/playerStats
 
 navItemsPath=data/navItems.json
 leagueDataPath=data/leagueData.json

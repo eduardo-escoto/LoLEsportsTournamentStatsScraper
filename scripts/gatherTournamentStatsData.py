@@ -43,6 +43,8 @@ def getTournamentStats(tournament, leagueSlug):
                                                  leagueSlug, title, group))
         outputPath = createPathString(tournamentStatsPath, leagueSlug,
                                       title, group, title + "_" + group + ".json")
+        response.update({"leagueSlug": leagueSlug, "tournamentId": tournamentId,
+                         "title": title, "groupName": group})
         with open(outputPath, "w") as output_file:
             json.dump(response, output_file, indent=2)
             print("Saved data for: " + title + "_" + group)
