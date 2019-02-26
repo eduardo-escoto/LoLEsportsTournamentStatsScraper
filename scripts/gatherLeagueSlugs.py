@@ -11,8 +11,8 @@ with open(navItemsPath, "r") as read_file:
     for league in leagues:
         slugList.append({
             "name": league["name"],
-            "slug":league["slug"],
-            "id":league["id"]
+            "slug": league["slug"],
+            "id": league["id"]
         })
 
 

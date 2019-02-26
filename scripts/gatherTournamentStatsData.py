@@ -54,3 +54,7 @@ with open(groupNameDataPath, "r") as read_file:
     data = json.load(read_file)
     for league in data:
         getStatsByLeague(league)
+
+
+# TODO:
+# [] Make it not download tournament data that already exists
